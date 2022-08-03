@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 11:17:36 by jforner           #+#    #+#             */
-/*   Updated: 2022/08/03 01:54:06 by jforner          ###   ########.fr       */
+/*   Updated: 2022/08/03 02:00:50 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ int	main(void)
 	std::cout << "\033[0;31m";
 	const Animal* ani[2];
 
-	const Animal* oni = new Animal();
+	// const Animal* oni = new Animal();
 
-	oni->makeSound();
+	// oni->makeSound();
 	ani[0] = new Cat();
 	ani[1] = new Dog();
 	
